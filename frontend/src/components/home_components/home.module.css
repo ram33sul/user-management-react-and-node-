@@ -1,0 +1,46 @@
+.container {
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    margin-top: 40vh;
+    transform: translateY(-50%);
+}
+
+.image {
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    border: 5px solid white;
+    cursor: pointer;
+    box-shadow: 0 0 50px rgb(0,150,255);
+    transition: all 0.2s;
+}
+
+.image:hover {
+    transform: scale(1.2);
+}
+
+.name {
+    font-size: 25px;
+    font-weight: bold;
+    margin: auto;
+    padding: 20px 0 20px 0;
+    text-align: center;
+    background-color: rgb(0,150,255);
+    color: white;
+    margin-top: 50px;
+    cursor: pointer;
+    border-radius: 10px;
+    min-width: fit-content;
+    border: 2px solid rgb(0,150,255);
+    transition: all 0.2s;
+}
+
+.name:hover {
+    color: rgb(0,150,255);
+    background-color: white;
+}
